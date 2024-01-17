@@ -1,0 +1,160 @@
+H1{
+	margin-top: 4%; 
+	color: white;
+	font-family: "Times New Roman", serif;
+	font-style: italic;
+        font-size: 40px;
+}
+H2{
+	margin-top: 0%;
+	margin-left: 5%;
+	color: black;	
+	font-family: "Times New Roman", serif;
+	font-style: italic;
+    	font-weight: bold;
+    	font-size: 45px;
+}
+H3{
+	color:red;	
+	font-family: "Times New Roman", serif;
+	font-style: italic;
+    	font-size: 16px;
+}
+H4{
+	color: white;
+	font-family: "Times New Roman", serif;
+	font-style: normal;
+    	font-size: 20px;
+    	font-weight: bold;
+	text-decoration: underline;
+}
+H5{
+	color: black;
+	margin-top: 1%;
+	font-family: "Times New Roman", serif;
+	font-style: normal;
+    	font-size: 20px;
+}
+H6{
+	margin-top: 1%;
+	margin-left: 10%;
+	color:white;	
+	font-family: "Times New Roman", serif;
+	font-style: normal;
+    	font-size: 35px;
+}
+H7{
+	margin-left: 5%;
+	color:darkorange;	
+	font-family: "Times New Roman", serif;
+	font-style: normal;
+    	font-size: 30px;
+}
+H8{
+	color: darkorange;
+	margin-top: 20%;
+	font-family: "Times New Roman", serif;
+	font-style: normal;
+    	font-size: 28px;
+}
+H9{
+	color: white;
+	margin-top: 20%;
+	font-family: "Times New Roman", serif;
+	font-style: normal;
+    	font-size: 28px;
+}
+div.top{	
+	height: 10%;
+	position: absolute;
+	background: darkorange;
+	left:0%;
+	right:0%; 
+}
+div.bot{	
+	height: 30%;
+	position: absolute;
+	background: darkorange;
+	left:0%;
+	right:0%; 
+}
+div.form1{	
+	height: 90%;
+	position: absolute;
+	left:0%;
+	right:0%;
+}
+div.form{	
+	position: absolute;
+	left:5%;
+	right:5%; 
+	top:3%;
+	bottom:3%;
+}
+div.block{
+	position: absolute;
+	top:3%;
+	bottom:3%;
+}
+div.sv{
+	position: absolute;
+}
+body{
+    	background-image: url(images/fon1.jpg);
+    	background-position: absolute;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.view1{	
+	position: absolute;
+	background: white;
+	top:0%;
+	bottom:0%;
+	left:15%;
+	right:0%; 
+}
+.view2{	
+	position: absolute;
+	background: white;
+	top:0%;
+	bottom:0%;
+	left:15%;
+	right:0%;
+	display:none;
+}
+.view3{	
+	position: absolute;
+	background: white;
+	top:0%;
+	bottom:0%;
+	left:15%;
+	right:0%;
+	display:none;
+}
+.but1{
+	position: absolute;
+	background: darkorange;
+	top:0%;
+	bottom:68%;
+	left:0%;
+	right:15%;
+}
+.but2{
+	position: absolute;
+	background: darkorange;
+	top:34%;
+	bottom:34%;
+	left:0%;
+	right:15%;
+	display:none;
+}
+.but3{
+	position: absolute;
+	background: darkorange;
+	top:68%;
+	bottom:0%;
+	left:0%;
+	right:15%;
+	display:none;
+}
