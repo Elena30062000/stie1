@@ -1,39 +1,35 @@
 H1{
-	margin-top: 4%; 
-	color: white;
+	margin-top: 5%; 
+	color: LawnGreen;
 	font-family: "Times New Roman", serif;
 	font-style: italic;
-        font-size: 20rem;
+        font-size: 60px;
+    	font-weight: bold;
 }
 H2{
-	margin-top: 0%;
-	margin-left: 5%;
-	color: black;	
+	color: #002400;	
 	font-family: "Times New Roman", serif;
 	font-style: italic;
-    	font-weight: bold;
-    	font-size: 45px;
+    	font-size: 22px;
 }
 H3{
-	color:red;	
+	color: white;	
 	font-family: "Times New Roman", serif;
 	font-style: italic;
-    	font-size: 16px;
+    	font-size: 20px;
 }
 H4{
-	color: white;
+	color: black;
 	font-family: "Times New Roman", serif;
 	font-style: normal;
     	font-size: 20px;
-    	font-weight: bold;
-	text-decoration: underline;
 }
 H5{
 	color: black;
 	margin-top: 1%;
 	font-family: "Times New Roman", serif;
 	font-style: normal;
-    	font-size: 20px;
+    	font-size: 18px;
 }
 H6{
 	margin-top: 1%;
@@ -45,36 +41,27 @@ H6{
 }
 H7{
 	margin-left: 5%;
-	color:darkorange;	
+	color:Lime;	
 	font-family: "Times New Roman", serif;
 	font-style: normal;
     	font-size: 30px;
 }
 H8{
-	color: darkorange;
-	margin-top: 20%;
+	color: Lime;
 	font-family: "Times New Roman", serif;
 	font-style: normal;
-    	font-size: 28px;
+    	font-size: 25px;
 }
 H9{
 	color: white;
-	margin-top: 20%;
 	font-family: "Times New Roman", serif;
 	font-style: normal;
-    	font-size: 28px;
-}
-div.top{	
-	height: 10%;
-	position: absolute;
-	background: darkorange;
-	left:0%;
-	right:0%; 
+    	font-size: 25px;
 }
 div.bot{	
-	height: 30%;
+	height: 12%;
 	position: absolute;
-	background: darkorange;
+	background: Lime;
 	left:0%;
 	right:0%; 
 }
@@ -105,7 +92,14 @@ body{
 	background-size: cover;
 	background-attachment: fixed;
 }
-
+.viewcntr{	
+	position: absolute;
+	background: white;
+	top:0%;
+	bottom:0%;
+	left:5%;
+	right:5%; 
+}
 .view1{	
 	position: absolute;
 	background: white;
@@ -132,27 +126,45 @@ body{
 	right:0%;
 	display:none;
 }
+.view4{	
+	position: absolute;
+	background: white;
+	top:0%;
+	bottom:0%;
+	left:15%;
+	right:0%;
+	display:none;
+}
 .but1{
 	position: absolute;
-	background: darkorange;
+	background: Lime;
 	top:0%;
-	bottom:68%;
+	bottom:75%;
 	left:0%;
 	right:15%;
 }
 .but2{
 	position: absolute;
-	background: darkorange;
-	top:34%;
-	bottom:34%;
+	background: Lime;
+	top:25%;
+	bottom:50%;
 	left:0%;
 	right:15%;
 	display:none;
 }
 .but3{
 	position: absolute;
-	background: darkorange;
-	top:68%;
+	background: Lime;
+	top:50%;
+	bottom:25%;
+	left:0%;
+	right:15%;
+	display:none;
+}
+.but4{
+	position: absolute;
+	background: Lime;
+	top:75%;
 	bottom:0%;
 	left:0%;
 	right:15%;
